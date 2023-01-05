@@ -1,0 +1,1 @@
+I did not calculate the command in Node-red (for Homeassistant) Its much easier to simply send the HEX command straight over the serial.
