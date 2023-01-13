@@ -16,3 +16,4 @@ Node-Red flow:
 
 Here is a sample on my Homeassistant dashboard:
 <img width="473" alt="image" src="https://user-images.githubusercontent.com/13587376/210770498-d6fbcb7e-cc68-4b43-9f3b-0a3501baedbb.png">
+<img width="504" alt="image" src="https://user-images.githubusercontent.com/13587376/212323189-4d3e4d1f-d356-4130-8d0d-c8f8d264593c.png">
