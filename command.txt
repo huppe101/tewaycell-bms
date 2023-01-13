@@ -10,4 +10,4 @@ and the response should be something like:
 
 ```
 
-I have not yet decoded the rest of the paramaters, but some seemd static, and only 44 correlated with the SOC (without decimals)
+It seems that the 15 cell values are also present. See the Python file or the HASSIO addon tests for more info
