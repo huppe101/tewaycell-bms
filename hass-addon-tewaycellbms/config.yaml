@@ -1,0 +1,42 @@
+---
+name: Tewaycell BMS reader
+version: 2023.01
+slug: hass-addon-tewaaycell-bms
+description: Add-on to read the BMS values of the Tewaycell Home Battery
+startup: services
+boot: auto
+url: "https://github.com/huppe101/tewaycell-bms"
+uart: true
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports: {}
+ports_description: {}
+host_network: false
+map:
+  - share:rw
+options:
+  PORT: ""
+  DEVICE: ""
+  DRIVER: "umodbus"
+  MQTT_HOST: core-mosquitto
+  MQTT_PORT: 1883
+  MQTT_USERNAME: hass
+  MQTT_PASSWORD: ""
+  DEBUG: 0
+schema:
+  PORT: str?
+  DEVICE: device(subsystem=tty)?
+  DRIVER: str?
+  READ_SENSORS_BATCH_SIZE: int?
+  PROFILES:
+    - str
+  MODBUS_SERVER_ID: int
+  MQTT_HOST: str
+  MQTT_PORT: port
+  MQTT_USERNAME: str
+  MQTT_PASSWORD: password
+  DEBUG: int
